@@ -9,10 +9,10 @@ Transform raw features into probability distributions across the dataset instead
 Results
 
 Overall Performance
-Accuracy: 85.6%
-F1 Score: 0.727
-AUROC: 0.741
-ECE: 0.144
+* Accuracy: 85.6%
+* F1 Score: 0.727
+* AUROC: 0.741
+* ECE: 0.144
 
 Class Performance
 Common Class F1: 0.884 (predictions with >30% base rate)
