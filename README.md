@@ -24,17 +24,16 @@ Best Performing Thresholds
 * 9.5 games (both): F1=0.85+, AUC=0.86
 
 Method:
-Parse point-by-point JSON data from tennis matches
-Engineer features from first 6 games of each set
-Calculate relative differences from league averages
-Transform features into probability bins (key step)
-Train Mixture of Experts model with custom loss function
+- Parse point-by-point JSON data from tennis matches
+- Engineer features from first 6 games of each set
+- Calculate relative differences from league averages
+- Transform features into probability bins (key step)
+- Train Mixture of Experts model with custom loss function
 
 Repository Contents
-
-notebook.ipynb - Complete implementation
-sample_data.csv - Sample tennis data for testing
-This README
+- notebook.ipynb - Complete implementation
+- sample_data.csv - Sample tennis data for testing
+- This README
 
 Full Dataset
 For complete 1GB dataset (30,000+ matches with point-by-point data), contact: almacduni@gmail.com
