@@ -1,12 +1,12 @@
-Tennis Set Total Games Prediction Using Probability-Based Feature Engineering
+# Tennis Set Total Games Prediction Using Probability-Based Feature Engineering
 
-Overview
+## Overview
 Novel approach to predicting total games in tennis sets achieving 85.6% accuracy by transforming match statistics into probability bins and using a Mixture of Experts neural network.
 
-Key Innovation
+## Key Innovation
 Transform raw features into probability distributions across the dataset instead of using raw statistics. Each feature is converted to its historical probability before feeding to the model - this significantly outperformed traditional ML algorithms.
 
-Results
+## Results
 
 Overall Performance
 * Accuracy: 85.6%
@@ -23,22 +23,22 @@ Best Performing Thresholds
 * Under 8.5 games: F1=0.869, AUC=0.900
 * 9.5 games (both): F1=0.85+, AUC=0.86
 
-Method:
+## Method:
 - Parse point-by-point JSON data from tennis matches
 - Engineer features from first 6 games of each set
 - Calculate relative differences from league averages
 - Transform features into probability bins (key step)
 - Train Mixture of Experts model with custom loss function
 
-Repository Contents
+## Repository Contents
 - notebook.ipynb - Complete implementation
 - sample_data.csv - Sample tennis data for testing
 - This README
 
-Full Dataset
+## Full Dataset
 For complete 1GB dataset (30,000+ matches with point-by-point data), contact: almacduni@gmail.com
 
-Usage
+## Usage
 python# Run notebook to:
 1. Load tennis data
 2. Create probability features  
@@ -46,6 +46,6 @@ python# Run notebook to:
 4. Get predictions with 85.6% accuracy
 
 
-License
+## License
 Free for research. Commercial use requires permission.
 Contact: almacduni@gmail.com
