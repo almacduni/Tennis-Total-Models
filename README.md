@@ -8,17 +8,17 @@ Transform raw features into probability distributions across the dataset instead
 
 ## Results
 
-Overall Performance
+### Overall Performance
 * Accuracy: 85.6%
 * F1 Score: 0.727
 * AUROC: 0.741
 * ECE: 0.144
 
-Class Performance
+### Class Performance
 * Common Class F1: 0.884 (predictions with >30% base rate)
 * Minority Class F1: 0.256 (predictions with <30% base rate)
 
-Best Performing Thresholds
+### Best Performing Thresholds
 * Over 8.5 games: F1=0.940, AUC=0.902
 * Under 8.5 games: F1=0.869, AUC=0.900
 * 9.5 games (both): F1=0.85+, AUC=0.86
