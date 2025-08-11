@@ -15,13 +15,13 @@ Overall Performance
 * ECE: 0.144
 
 Class Performance
-Common Class F1: 0.884 (predictions with >30% base rate)
-Minority Class F1: 0.256 (predictions with <30% base rate)
+* Common Class F1: 0.884 (predictions with >30% base rate)
+* Minority Class F1: 0.256 (predictions with <30% base rate)
 
 Best Performing Thresholds
-Over 8.5 games: F1=0.940, AUC=0.902
-Under 8.5 games: F1=0.869, AUC=0.900
-9.5 games (both): F1=0.85+, AUC=0.86
+* Over 8.5 games: F1=0.940, AUC=0.902
+* Under 8.5 games: F1=0.869, AUC=0.900
+* 9.5 games (both): F1=0.85+, AUC=0.86
 
 Method:
 Parse point-by-point JSON data from tennis matches
